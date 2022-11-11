@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    <h1>ROCK | PAPER | SCISSORS</h1>
+    <div class="scores">
+        <p class="player">Player</p>
+        <span class="player-points"></span>
+        <span class="comp-points"></span>
+        <p class="comp">Comp</p>
+    </div>
+    <section class="options">
+        <button data-option="ROCK"><img src="rock.jpg" alt=""></button>
+        <button data-option="PAPER"><img src="paper.jpg" alt=""></button>
+        <button data-option="SCISSORS"><img src="scissors.jpg" alt=""></button>
+    </section>
+    <div class="choices">
+        <p class="player">Player: <span class="player-choice"></span></p>
+        <p class="comp">Comp: <span class="comp-choice"></span></p>
+    </div>
+    <p class="result-text">You won!</p>
+    <button class="reset-game">Reset game</button>
+
+    <script src="game.js"></script>
+</body>
+</html>
